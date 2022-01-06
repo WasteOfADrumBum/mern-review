@@ -50,10 +50,7 @@ router.get('/:id', async (req, res) => {
 // @Action  createReviews()
 // @Access  Private
 router.post('/create-review', async (req, res) => {
-  console.log('@Route POST api/review/create-review')
   const { userName, email, comment, review, approved } = req.body
-
-  console.log('@Route req.body', req.body)
 
   const newEntry = {
     user: {
