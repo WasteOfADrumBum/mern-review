@@ -1,0 +1,46 @@
+.home {
+    a {
+        text-decoration: none;
+    }
+
+    .stats {
+        margin-bottom: 20px;
+        padding: 35px;
+        position: relative;
+        border-radius: 20px;
+        border: 1px solid #e9e9ea;
+        height: 100%;
+
+        h4 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 0;
+        }
+
+        &.primary {
+            border-left: 8px solid #0d6efd;
+        }
+
+        &.success {
+            border-left: 8px solid #198754;
+        }
+
+        &.danger {
+            border-left: 8px solid #dc3545;
+        }
+
+        &.warning {
+            border-left: 8px solid #ffc107;
+        }
+
+        &.info {
+            border-left: 8px solid #0dcaf0;
+        }
+    }
+}

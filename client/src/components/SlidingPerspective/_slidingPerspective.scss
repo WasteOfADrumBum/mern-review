@@ -1,0 +1,65 @@
+.slidingPerspective {
+    height: 30rem;
+    width: 47rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    .perspective-text {
+        color: #fff;
+        font-family: Arial;
+        font-size: 3.625rem;
+        font-weight: 900;
+        letter-spacing: -2px;
+        text-transform: uppercase;
+
+        &:hover p {
+            transform: translate(0, -3.125rem);
+        }
+    }
+
+    .perspective-line {
+        height: 3.125rem;
+        overflow: hidden;
+        position: relative;
+
+        &:nth-child(odd) {
+            transform: skew(60deg, -30deg) scaleY(0.667);
+        }
+
+        &:nth-child(even) {
+            transform: skew(0deg, -30deg) scaleY(1.337);
+        }
+
+        &:nth-child(1) {
+            left: -9.813rem;
+        }
+
+        &:nth-child(2) {
+            left: -7.625rem;
+            background: #f07e6e;
+        }
+
+        &:nth-child(3) {
+            left: -5.438rem;
+            background: #84cdfa;
+        }
+
+        &:nth-child(4) {
+            left: -3.25rem;
+            background: #5ad1cd;
+        }
+
+        &:nth-child(5) {
+            left: -1.063rem;
+        }
+    }
+
+    p {
+        margin: 0;
+        height: 3.125rem;
+        line-height: 3.125rem;
+        transition: all 0.5s ease-in-out;
+    }
+}

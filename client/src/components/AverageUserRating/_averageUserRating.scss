@@ -1,0 +1,60 @@
+.averageUserRating {
+
+    .heading {
+        font-size: 25px;
+        margin-right: 25px;
+    }
+
+    .bi {
+        font-size: 25px;
+
+        &.bi-star,
+        &.bi-star-fill {
+            color: gold;
+        }
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* The bar container */
+    .bar-container {
+        width: 100%;
+        background-color: #f1f1f1;
+        text-align: center;
+        color: white;
+    }
+
+    .bar-5,
+    .bar-4,
+    .bar-3,
+    .bar-2,
+    .bar-1 {
+        height: 18px;
+    }
+
+    /* Individual bars */
+    .bar-5 {
+        background-color: #04AA6D;
+    }
+
+    .bar-4 {
+        background-color: #2196F3;
+    }
+
+    .bar-3 {
+        background-color: #00bcd4;
+    }
+
+    .bar-2 {
+        background-color: #ff9800;
+    }
+
+    .bar-1 {
+        background-color: #f44336;
+    }
+}
