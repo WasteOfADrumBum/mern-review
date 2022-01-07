@@ -57,7 +57,7 @@ const Home = () => (
             <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
               <a
                 role="button"
-                class="btn btn-sm text-uppercase btn-outline-success"
+                className="btn btn-sm text-uppercase btn-outline-success"
                 href="./user-dashboard"
                 rel="noreferrer"
               >
@@ -127,7 +127,7 @@ const Home = () => (
             <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
               <a
                 role="button"
-                class="btn btn-sm text-uppercase btn-outline-warning"
+                className="btn btn-sm text-uppercase btn-outline-warning"
                 href="./admin-dashboard"
                 rel="noreferrer"
               >
@@ -327,7 +327,7 @@ const Home = () => (
             <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
               <a
                 role="button"
-                class="btn btn-sm text-uppercase btn-outline-danger"
+                className="btn btn-sm text-uppercase btn-outline-danger"
                 href="./public-reviews"
                 rel="noreferrer"
               >
