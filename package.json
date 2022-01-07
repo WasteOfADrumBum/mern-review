@@ -17,5 +17,8 @@
 	"bugs": {
 		"url": "https://github.com/WasteOfADrumBum/mern-review/issues"
 	},
-	"homepage": "https://github.com/WasteOfADrumBum/mern-review#readme"
+	"homepage": "https://github.com/WasteOfADrumBum/mern-review#readme",
+	"dependencies": {
+		"concurrently": "^7.0.0"
+	}
 }
